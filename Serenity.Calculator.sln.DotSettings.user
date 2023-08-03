@@ -1,0 +1,13 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=23be3edb_002D8c43_002D4e4f_002Da788_002Df3a9204b71c6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShouldHaveValidConfiguration" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA::net7.0::Serenity.Calculator.Application.Tests.MappingTests.ShouldHaveValidConfiguration&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA::net7.0::Serenity.Calculator.Application.Tests.LocalProviderTests.Math_Operator_Add_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA::net7.0::Serenity.Calculator.Application.Tests.LocalProviderTests.Math_Operator_Div_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA::net7.0::Serenity.Calculator.Application.Tests.LocalProviderTests.Math_Operator_Mul_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA::net7.0::Serenity.Calculator.Application.Tests.LocalProviderTests.Math_Operator_Subtract_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA::net7.0::Serenity.Calculator.Application.Tests.LocalProviderTests.Math_WithFirstMinus_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA::net7.0::Serenity.Calculator.Application.Tests.LocalProviderTests.Math_WithBrackets_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA::net7.0::Serenity.Calculator.Application.Tests.LocalProviderTests.Math_DivZero_Test&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

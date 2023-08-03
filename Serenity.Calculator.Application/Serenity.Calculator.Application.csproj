@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Serenity.Calculator.Domain\Serenity.Calculator.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+      <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.6.0" />
+      <PackageReference Include="MediatR" Version="12.1.1" />
+      <PackageReference Include="org.matheval" Version="1.0.0.3" />
+    </ItemGroup>
+
+</Project>
