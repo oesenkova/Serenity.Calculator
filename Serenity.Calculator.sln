@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serenity.Calculator.Api", "Serenity.Calculator.Api\Serenity.Calculator.Api.csproj", "{0D869C26-F46B-4C1E-B06F-5E7F464FF309}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serenity.Calculator.Domain", "Serenity.Calculator.Domain\Serenity.Calculator.Domain.csproj", "{C8B347C4-44F1-404B-BC45-307EA2314D52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serenity.Calculator.Application", "Serenity.Calculator.Application\Serenity.Calculator.Application.csproj", "{91A68E80-09A5-452F-A784-C118D94F2BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serenity.Calculator.Infrastructure.Http", "Serenity.Calculator.Infrastructure.Http\Serenity.Calculator.Infrastructure.Http.csproj", "{D2901703-9F26-4D51-89EE-DD147D591364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serenity.Calculator.Application.Tests", "Serenity.Calculator.Application.Tests\Serenity.Calculator.Application.Tests.csproj", "{9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D869C26-F46B-4C1E-B06F-5E7F464FF309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D869C26-F46B-4C1E-B06F-5E7F464FF309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D869C26-F46B-4C1E-B06F-5E7F464FF309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D869C26-F46B-4C1E-B06F-5E7F464FF309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B347C4-44F1-404B-BC45-307EA2314D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B347C4-44F1-404B-BC45-307EA2314D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B347C4-44F1-404B-BC45-307EA2314D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B347C4-44F1-404B-BC45-307EA2314D52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A68E80-09A5-452F-A784-C118D94F2BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A68E80-09A5-452F-A784-C118D94F2BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A68E80-09A5-452F-A784-C118D94F2BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A68E80-09A5-452F-A784-C118D94F2BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2901703-9F26-4D51-89EE-DD147D591364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2901703-9F26-4D51-89EE-DD147D591364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2901703-9F26-4D51-89EE-DD147D591364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2901703-9F26-4D51-89EE-DD147D591364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
