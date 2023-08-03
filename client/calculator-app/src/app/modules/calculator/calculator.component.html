@@ -1,0 +1,42 @@
+<div class="container mt-4">
+  <div class="calculator">
+    <span>Please select calculation provider</span>
+    <select class="form-select mb-4" aria-label="provider selector" [(ngModel)]="selectedCalculationProvider">
+      <option *ngFor="let calculationProvider of calculationProviders"
+              [value]="calculationProvider.value">{{ calculationProvider.label }}</option>
+    </select>
+
+    <input type="text" class="form-control" aria-describedby="basic-addon2" disabled [value]="definition">
+
+    <div class="keys mt-3">
+      <button class="btn btn-secondary" (click)="addOpenedBrackets()">(</button>
+      <button class="btn btn-secondary" (click)="addClosedBrackets()">)</button>
+      <button class="btn btn-secondary" (click)="clearLast()">CE</button>
+      <button class="btn btn-secondary" (click)="clearAll()">AC</button>
+
+      <button class="btn btn-light" (click)="addNumber('7')">7</button>
+      <button class="btn btn-light" (click)="addNumber('8')">8</button>
+      <button class="btn btn-light" (click)="addNumber('9')">9</button>
+      <button class="btn btn-secondary" (click)="addOperator('/')">÷</button>
+
+      <button class="btn btn-light" (click)="addNumber('4')">4</button>
+      <button class="btn btn-light" (click)="addNumber('5')">5</button>
+      <button class="btn btn-light" (click)="addNumber('6')">6</button>
+      <button class="btn btn-secondary" (click)="addOperator('*')">*</button>
+
+      <button class="btn btn-light" (click)="addNumber('1')">1</button>
+      <button class="btn btn-light" (click)="addNumber('2')">2</button>
+      <button class="btn btn-light" (click)="addNumber('3')">3</button>
+      <button class="btn btn-secondary" (click)="addOperator('-')">-</button>
+
+      <button class="btn btn-light" (click)="addNumber('0')">0</button>
+      <button class="btn btn-light" (click)="addDecimal()">.</button>
+      <button class="btn btn-primary" (click)="calculate()">=</button>
+      <button class="btn btn-secondary" (click)="addOperator('+')">+</button>
+    </div>
+
+    <div class="alert alert-danger mt-5" role="alert" *ngIf="calculationResult.errorMessage">
+      {{calculationResult.errorMessage}}
+    </div>
+  </div>
+</div>
