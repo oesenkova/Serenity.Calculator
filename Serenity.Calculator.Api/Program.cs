@@ -1,5 +1,6 @@
 using Serenity.Calculator.Api.Extensions;
 using Serenity.Calculator.Application;
+using Serenity.Calculator.Infrastructure.Database;
 using Serenity.Calculator.Infrastructure.Http;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,7 @@ var configuration = builder.Configuration;
 services.AddApplication();
 services.AddHttpInfrastructure(configuration);
 services.AddApi();
+services.AddDb(configuration);
 
 var app = builder.Build();
 

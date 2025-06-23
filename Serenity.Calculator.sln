@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serenity.Calculator.Infrast
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serenity.Calculator.Application.Tests", "Serenity.Calculator.Application.Tests\Serenity.Calculator.Application.Tests.csproj", "{9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serenity.Calculator.Infrastructure.Database", "Serenity.Calculator.Infrastructure.Database\Serenity.Calculator.Infrastructure.Database.csproj", "{81A2B38F-E647-4AA0-8AD2-D143CA4C6CBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BDF20EF-3B93-45F7-BFD1-1D058BAB9FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A2B38F-E647-4AA0-8AD2-D143CA4C6CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A2B38F-E647-4AA0-8AD2-D143CA4C6CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A2B38F-E647-4AA0-8AD2-D143CA4C6CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A2B38F-E647-4AA0-8AD2-D143CA4C6CBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

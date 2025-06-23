@@ -4,6 +4,7 @@ namespace Serenity.Calculator.Domain.Entities.Expressions;
 
 public class Expression
 {
+    public int Id { get; set; }
     public string Definition { get; private set; }
 
     public string? Result { get; private set; }

@@ -12,11 +12,13 @@ public class CalculateExpressionCommandHandler : IRequestHandler<CalculateExpres
 {
     private readonly ICalculationProviderFactory _providerFactory;
     private readonly IMapper _mapper;
+    private readonly IExpressionRepository _expressionRepository;
 
-    public CalculateExpressionCommandHandler(ICalculationProviderFactory providerFactory, IMapper mapper)
+    public CalculateExpressionCommandHandler(ICalculationProviderFactory providerFactory, IMapper mapper, IExpressionRepository expressionRepository)
     {
         _providerFactory = providerFactory;
         _mapper = mapper;
+        _expressionRepository = expressionRepository;
     }
 
     public async Task<CalculateExpressionResultDto> Handle(CalculateExpressionCommand request, CancellationToken cancellationToken)
@@ -40,7 +42,7 @@ public class CalculateExpressionCommandHandler : IRequestHandler<CalculateExpres
         }
         finally
         {
-            //TODO save all results to DB later
+            await _expressionRepository.CreateAsync(expression);
         }
 
         return _mapper.Map<CalculateExpressionResultDto>(expression);
